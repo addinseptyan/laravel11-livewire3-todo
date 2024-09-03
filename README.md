@@ -28,67 +28,67 @@ Follow the instructions below to clone and set up the project on your local mach
 
 First, clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/addinseptyan/laravel11-livewire3-todo.git
 cd repository-name
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
 Next, install the required PHP and Node.js dependencies:
 
-\`\`\`bash
+```bash
 composer install
 npm install
-\`\`\`
+```
 
 ### 3. Configure Environment Variables
 
 Copy the \`.env.example\` file to \`.env\` and set up your environment variables:
 
-\`\`\`bash
+```bash
 cp .env.example .env
-\`\`\`
+```
 
 Generate a new application key:
 
-\`\`\`bash
+```bash
 php artisan key:generate
-\`\`\`
+```
 
 ### 4. Set Up the Database
 
 Update the \`.env\` file with your database configuration:
 
-\`\`\`plaintext
+```plaintext
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
-\`\`\`
+```
 
 Run the database migrations:
 
-\`\`\`bash
+```bash
 php artisan migrate
-\`\`\`
+```
 
 ### 5. Start the Development Server
 
 Finally, serve the application locally:
 
-\`\`\`bash
+```bash
 php artisan serve
-\`\`\`
+```
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Open your browser and navigate to:
 
-\`\`\`
+```
 http://localhost:8000
-\`\`\`
+```
