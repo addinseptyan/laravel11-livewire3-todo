@@ -28,7 +28,7 @@
     {{-- action buttons: edit and delete --}}
     <div class="flex items-center space-x-2">
       <button wire:click="edit({{ $todo->id }})"
-        class="text-sm text-teal-500 font-semibold rounded hover:text-teal-800 shadow-button-brutal">
+        class="text-sm text-yellow-500 font-semibold rounded hover:text-yellow-600 shadow-button-brutal">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round"
@@ -36,7 +36,7 @@
         </svg>
       </button>
       <button wire:click="delete({{ $todo->id }})"
-        class="text-sm text-red-500 font-semibold rounded hover:text-teal-800 mr-1 shadow-button-brutal">
+        class="text-sm text-red-500 font-semibold rounded hover:text-red-600 mr-1 shadow-button-brutal">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
           <path stroke-linecap="round" stroke-linejoin="round"
@@ -50,7 +50,7 @@
   <div class="mt-3 text-xs text-gray-700">
     @if ($editingTodoId == $todo->id)
       <button wire:click="update"
-        class="mt-3 px-4 py-2 bg-teal-500 text-white font-semibold rounded hover:bg-teal-600 shadow-button-brutal">Update</button>
+        class="mt-3 px-4 py-2 bg-yellow-500 text-white font-semibold rounded hover:bg-yellow-600 shadow-button-brutal">Update</button>
       <button wire:click="cancelEditing"
         class="mt-3 px-4 py-2 bg-red-500 text-white font-semibold rounded hover:bg-red-600 shadow-button-brutal">Cancel</button>
     @endif
