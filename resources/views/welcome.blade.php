@@ -9,10 +9,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gray-200">
   <div id="head" class="flex">
-    <div id="head-line-gradient"
-      class="bg-gradient-to-r from-sky-300 via-indigo-500 to-pink-600 w-full h-2 absolute"></div>
+    <div id="head-line-gradient" class="bg-yellow-200 w-full h-2 absolute"></div>
     <div class="w-full">
       <header
         class="flex bg-white justify-between h-20 border-b border-b-gray-200 items-center px-6">
@@ -29,7 +28,7 @@
     </div>
   </div>
 
-  <div id="content" class="mx-auto" style="max-width:500px;">
+  <div id="content" class="mx-auto max-w-[500px]">
     @livewire('todo-list')
   </div>
 

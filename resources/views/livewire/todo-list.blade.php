@@ -1,32 +1,6 @@
 <div>
-  <div class="container content py-6 mx-auto">
-    <div class="mx-auto">
-      <div id="create-form" class="hover:shadow p-6 bg-white border-indigo-500 border-t-2">
-        <div class="flex ">
-          <h2 class="font-semibold text-lg text-gray-800 mb-5">Create New Todo</h2>
-        </div>
-        <div>
-          <form>
-            <div class="mb-6">
-              <label for="title"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">*
-                Todo </label>
-              <input type="text" id="title" placeholder="Todo.."
-                class="bg-gray-100  text-gray-900 text-sm rounded block w-full p-2.5">
+  @include('livewire.includes.create-todo-box')
 
-              <span class="text-red-500 text-xs mt-3 block ">Error</span>
-
-            </div>
-            <button type="submit"
-              class="px-4 py-2 bg-indigo-500 text-white font-semibold rounded-full hover:bg-indigo-600">Create
-              +</button>
-            <span class="text-green-500 text-xs">Saved.</span>
-
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="search-box" class="flex flex-col items-center px-2 my-4 justify-center">
     <div class="flex justify-center items-center">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -35,14 +9,15 @@
           d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
       </svg>
       <input type="text" placeholder="Search..."
-        class="bg-gray-100 ml-2 rounded px-4 py-2 hover:bg-gray-100" />
+        class="bg-gray-100 ml-2 rounded px-4 py-2 hover:bg-gray-100 border-black border-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:outline-none focus:shadow-none focus:translate-x-0.5 focus:translate-y-0.5 transition" />
     </div>
     <span class="text-red-500 text-xs block mt-2">Error</span>
 
   </div>
+
   <div id="todos-list">
     <div
-      class="todo mb-5 card px-5 py-6 bg-white col-span-1 border-t-2 border-blue-500 hover:shadow">
+      class="todo mb-5 card px-5 py-6 bg-white col-span-1 border-t-8 border-indigo-500 hover:shadow">
       <div class="flex justify-between space-x-2">
 
         <!-- <input type="text" placeholder="Todo.."
