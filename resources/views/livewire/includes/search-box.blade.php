@@ -6,7 +6,7 @@
         d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
     </svg>
     <input wire:model.live.debounce.500ms="search" type="text" placeholder="Search..."
-      class="bg-gray-100 ml-2 rounded px-4 py-2 hover:bg-gray-100 border-black border-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:outline-none focus:shadow-none focus:translate-x-0.5 focus:translate-y-0.5 transition" />
+      class="bg-gray-100 ml-2 rounded px-4 py-2 hover:bg-gray-100 shadow-input-brutal" />
   </div>
   @error('search')
     <span class="text-red-500 text-xs block mt-2">{{ $message }}</span>

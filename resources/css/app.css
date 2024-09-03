@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-input-brutal {
+    @apply border-black border-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:outline-none focus:shadow-none focus:translate-x-0.5 focus:translate-y-0.5 transition;
+}
+.shadow-button-brutal {
+    @apply border-black border-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:outline-none active:shadow-none active:translate-x-0.5 active:translate-y-0.5 transition;
+}

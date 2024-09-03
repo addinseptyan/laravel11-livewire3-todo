@@ -18,7 +18,7 @@
 
     <div class="my-2">
       <!-- Pagination goes here -->
-      {{ $todos->links() }}
+      {{ $todos->links('vendor.livewire.tailwind') }}
     </div>
   </div>
 </div>
