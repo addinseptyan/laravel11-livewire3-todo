@@ -10,6 +10,7 @@
 </head>
 
 <body class="bg-gray-200">
+  {{-- header --}}
   <div id="head" class="flex">
     <div id="head-line-gradient" class="bg-yellow-200 w-full h-2 absolute"></div>
     <div class="w-full">
@@ -28,6 +29,7 @@
     </div>
   </div>
 
+  {{-- main --}}
   <div id="content" class="mx-auto max-w-[500px]">
     @livewire('todo-list')
   </div>
