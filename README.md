@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/b3558a18-b105-4972-8e9f-39226b329e30
 
 You can check out the live demo of this project here:
 
-[Live Demo](laravel11-livewire3-todo-production.up.railway.app)
+[Live Demo](https://laravel11-livewire3-todo-production.up.railway.app)
 
 ## Features
 
