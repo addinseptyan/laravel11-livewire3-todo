@@ -6,6 +6,12 @@ A simple Todo application built with Laravel 11, Livewire 3, and Tailwind CSS. T
 
 https://github.com/user-attachments/assets/b3558a18-b105-4972-8e9f-39226b329e30
 
+## Demo
+
+You can check out the live demo of this project here:
+
+[Live Demo](laravel11-livewire3-todo-production.up.railway.app)
+
 ## Features
 
 - Add, edit, and delete tasks
